@@ -9,7 +9,7 @@ function Example() {
     return (
         <div>
             <p>Вы нажали {count} раз</p>
-            <p>{age}{fruit}{todos}</p>
+            <p>Age = {age} eat = {fruit}</p>
             <button onClick={() => setCount(count + 1)}>
                 Нажми на меня
             </button>
